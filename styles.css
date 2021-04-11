@@ -1,0 +1,33 @@
+.submit_btn {
+  width: 100%;
+}
+#destinations_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#title {
+  text-align: center;
+}
+
+.buttons_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#pady{
+    margin-bottom: 10px;
+}
+
+#rcorners3 {
+  border-radius: 25px;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4cY0i1EA9EBlJ1KRsPsSVhMEzgwUDdVoHOAJ3em8kAI2ici9dqRbUQzt0UEg&usqp=CAc);
+  background-position: left top;
+}
+
+label{
+    color: black;
+    font-size: medium;
+}
