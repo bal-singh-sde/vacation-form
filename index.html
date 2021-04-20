@@ -13,9 +13,10 @@
     <body>
         <div class="jumbotron jumbotron-fluid">
             <div class="container text-center">
-                <h1 class="display-4">Favorite Food Wishlist</h1>
+                <h1 class="display-4">Vacation Destinations WishList</h1>
                 <p class="Lead">
-                    "Any foods you want to try? Use the form below to add them to your wishlist."
+                    Found exciting places to visition on your next vacation? Use the form below to add them to
+                your wishlist.
                 </p>
             </div>
         </div>
@@ -23,31 +24,34 @@
         <div class="container z-depth-5" id="rcorners3" >
             <div class="row">
                 <div class="col-md-3">
-                <form id="pady" id="destination_details_form">
+                <form id="userForm">
                     <div class="form-group ">
-                        <label for="name">Food name</label>
-                        <input required="" minlength="2" type="text" class="form-control" id="name" placeholder="Enter the name of the food">
+                        <label for="name">Desitonation Name</label>
+                        <input minlength="2" type="text" class="form-control" id="name" placeholder="Enter the name of the food">
                     </div>
                     <div class="form-group">
-                        <label for="location">Cuisine</label>
-                        <input required="" minlength="2" type="text" class="form-control" id="location" placeholder="What type of Cousine?">
+                        <label for="location">Location</label>
+                        <input minlength="2" type="text" class="form-control" id="location" placeholder="What type of Cousine?">
                     </div>
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label for="photo">Photo</label>
                         <input type="url" class="form-control" id="photo" placeholder="Enter an image url of the food">
-                    </div>
+                    </div> -->
                     <div class="form-group">
                         <label for="description">Description</label>
                         <textarea type="text" class="form-control" id="description" placeholder="Where does the food taste like?"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary submit_btn waves-effect waves-light btn" value="">Add to list</button>
+                    <button type="submit" id="forBtn" class="btn btn-primary submit_btn waves-effect waves-light btn" value="">Add to list</button>
                 </form>
 
             </div>
 
             <div class="col-md-9">
                 <h4 id="title">My WishList</h4>
-                <div id="destinations_container">
+                <div id="btns_container">
+                    <!-- Dynamically populated by Javascript -->
+                </div>
+                <div id="img_container">
                     <!-- Dynamically populated by Javascript -->
                 </div>
 
